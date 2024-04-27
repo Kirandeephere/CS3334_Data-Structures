@@ -23,7 +23,7 @@ void print(Node*& head, int position){
 void insertAtEnd(Node*& head, int value) {
     Node* newnode = new Node(); // Create a new node
     newnode->value = value;     // Assign the value
-    newnode->next = NULL;    // Set the next pointer to nullptr
+    newnode->next = NULL;    // Set the next pointer to NULL
 
     if (head == NULL) {
         head = newnode;

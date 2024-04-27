@@ -24,7 +24,7 @@ public:
 
     void push(int value) {
         if (IsFull()) {
-            cout << "Stack overflow!" << endl;
+            //cout << "Stack overflow!" << endl;
             return;
         }
         top++;
@@ -33,7 +33,7 @@ public:
 
     int pop() {
         if (IsEmpty()) {
-            cout << "Stack underflow!" << endl;
+            //cout << "Stack underflow!" << endl;
             return -1; // Return a default value
         }
         int value = data[top];
@@ -43,7 +43,7 @@ public:
 
     int peek() {
         if (IsEmpty()) {
-            cout << "Stack underflow!" << endl;
+            //cout << "Stack underflow!" << endl;
             return -1; // Return a default value
         }
         return data[top];
