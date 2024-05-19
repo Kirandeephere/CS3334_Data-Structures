@@ -11,8 +11,9 @@ Welcome to the **CS3334 Data Structures** repository! Whether you're an experien
 
 1. **About**
 2. **Revision Files**
-3. **OJ Assignments**
-4. **Usage/Installation**
+3. **OJ System**
+4. **Midterm**
+5. **Usage/Installation**
 
 ## About 🤓
 
@@ -55,4 +56,4 @@ To simplify running the files on VS Code, follow these steps:
 6. Use the appropriate VS Code extension or integrated terminal to compile and execute the file.
 
 ---
-*This repository is maintained by Kirandeep Kaur. Last updated on February 24, 2024.*
+*This repository is maintained by Kirandeep Kaur. Last updated on May 19, 2024.*
