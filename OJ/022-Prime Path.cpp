@@ -1,3 +1,14 @@
+/*****************************************
+ * (This comment block is added by the Judge System)
+ * Submission ID: 293022
+ * Submitted at:  2024-06-17 10:58:15
+ *
+ * User ID:       1991
+ * Username:      57153680
+ * Problem ID:    22
+ * Problem Name:  Prime Path
+ */
+
 #include <iostream>
 #include <vector>
 #include <queue>
