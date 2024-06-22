@@ -13,11 +13,13 @@
 #include <stack>
 #include <cctype>
 
-int main() {
-    std::string input;
-    std::stack<char> stack;
+using namespace std;
 
-    while (std::getline(std::cin, input)) {
+int main() {
+    string input;
+    stack<char> stack;
+
+    while (getline(cin, input)) {
         // Push characters onto the stack
         for (char c : input) {
             stack.push(c);
@@ -27,13 +29,13 @@ int main() {
         while (!stack.empty()) {
             char c = stack.top();
             stack.pop();
-            if (std::isupper(c)) {
-                std::cout << static_cast<char>(std::tolower(c));
+            if (isupper(c)) {
+                cout << static_cast<char>(tolower(c));
             } else {
-                std::cout << static_cast<char>(std::toupper(c));
+                cout << static_cast<char>(toupper(c));
             }
         }
-        std::cout << std::endl;
+        cout << endl;
     }
 
     return 0;
