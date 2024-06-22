@@ -13,6 +13,8 @@
 #include <vector>
 #include <cmath>
 
+using namespace std;
+
 // Function to check if a number is prime
 bool is_prime(int n) {
     if (n <= 1) return false;
@@ -40,9 +42,9 @@ int count_goldbach_pairs(int n) {
 int main() {
     int n;
     while (true) {
-        std::cin >> n;
+        cin >> n;
         if (n == 0) break;
-        std::cout << count_goldbach_pairs(n) << std::endl;
+        cout << count_goldbach_pairs(n) << endl;
     }
     return 0;
 }
